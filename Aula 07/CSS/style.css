@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Noto Serif', monospace;
+	
+}
+ul{
+	margin: 0px;
+	padding: 15px;
+	list-style-type: none;
+	background-color: #333;
+}
+li{
+	display: inline;
+}
+
+li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+}
+
+li a:hover:not(.ative){
+	background-color: #7FFF00;	
+}
+
+.active{
+	background-color: #808080;
+}
+div.conteudo{
+	min-height: 500px;
+	background-color: #111;
+}
+
+div.conteudo-img{
+	background-image: url('../img/matrx.gif');
+	background-attachment: fixed;
+}
