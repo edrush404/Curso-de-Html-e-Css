@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+body{
+	margin:0px;
+	padding: 0px;
+	font-family: 'Noto Serif', monospace;
+	
+}
+ul{
+	margin: 0px;
+	padding: 15px;
+	list-style-type: none;
+	background-color: #333;
+}
+li{
+	display: inline;
+}
+
+li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 15px;
+}
+
+li a:hover:not(.ative){
+	background-color: #00FF00;	
+}
+
+.active{
+	background-color: #808080;
+}
+.menu-login{
+	float: right;
+}
+div.conteudo{
+	min-height: 600px;
+	background-color: #111;
+	padding: 10px;
+	color: #fff;
+}
+div.conteudo h1{
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-shadow: 10px 10px 20px #2e8b57;
+	animation: piscaPisca 5s linear infinite;
+}
+
+div.conteudo p{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 60px;
+	text-align: justify;
+	text-indent: 75px;
+	letter-spacing: 5px;
+	line-height: 2;
+	animation: piscaPisca 1.5s linear infinite;
+	text-shadow: 5px 5px 10px #fff;
+}
+
+div.conteudo-img{
+	background-image: url('../img/img.gif');
+	background-attachment: fixed;
+}
+
+
+@keyframes piscaPisca{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.8;
+	}
+	100%{
+		opacity: 0.1;
+	}
+}
+
