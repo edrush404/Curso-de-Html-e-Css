@@ -45,24 +45,53 @@ div.conteudo h1{
 	animation: piscaPisca 5s linear infinite;
 }
 
-div.conteudo p{
+div.conteudo .test{
 	margin-left: 100px;
 	margin-right: 100px;
 	margin-top: 60px;
 	text-align: justify;
-	text-indent: 75px;
+	text-indent: 20px;
 	letter-spacing: 5px;
 	line-height: 2;
 	animation: piscaPisca 1.5s linear infinite;
 	text-shadow: 5px 5px 10px #fff;
+	color: white;
 }
 
-div.conteudo-img{
+.conteudo-img{
 	background-image: url('../img/img.gif');
 	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+
 }
-
-
+div.card input{
+	padding: 7px;
+	color: black;
+	margin-left: 150px;
+	background-color: #80808070;
+	
+}
+div.card{
+	background-color: #fff;
+	border-radius: 40px;
+	margin-top: 100px;
+	margin-left: 70px;
+	width: 25%;
+	background-color: #80808003;
+	
+}
+div.card img{
+	width: 100%;
+	height: 500px;
+}
+div.card img:hover{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	opacity: 0.5;
+	cursor: pointer;
+}
 @keyframes piscaPisca{
 	0%{
 		opacity: 0;
