@@ -31,6 +31,27 @@ li a:hover:not(.ative){
 .menu-login{
 	float: right;
 }
+.rodape h6{
+	margin-top: 40px;
+	color: white;
+	margin-top: 59px;
+}
+div.rodape p{
+	color: white;
+	margin-left: 72%;
+	font-size: 13px;
+	margin-top: 59px;
+}
+
+div.rodape img{
+	width: 2%;
+	height: 40px;
+}
+div.rodape{
+	background-color: #A9A9A9;
+	display: flex;
+	
+}
 div.conteudo{
 	min-height: 600px;
 	background-color: #111;
@@ -48,7 +69,6 @@ div.conteudo h1{
 div.conteudo .test{
 	margin-left: 100px;
 	margin-right: 100px;
-	margin-top: 60px;
 	text-align: justify;
 	text-indent: 20px;
 	letter-spacing: 5px;
@@ -69,13 +89,13 @@ div.card input{
 	padding: 7px;
 	color: black;
 	margin-left: 150px;
-	background-color: #80808070;
+	background-color: #eeeeee9e;
 	
 }
 div.card{
 	background-color: #fff;
 	border-radius: 40px;
-	margin-top: 100px;
+	
 	margin-left: 70px;
 	width: 25%;
 	background-color: #80808003;
