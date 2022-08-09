@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("../img/saya.jpg");
+}
+h1{
+	font-family: 'Arial';
+	text-align: center;
+	color: white;
+	text-decoration: underline;
+}
+#item1{
+	color: #008080;
+}
+#item2{
+	color: #00FF7F;
+}
+#item3{
+	color: red;
+}
+#item4{
+	color: yellow;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	font-family: 'Helvetica';
+}
+.item-img img{
+	width: 120%;
+	max-height: 450px;
+	border-radius: -40px;
+}
+.item-img{
+	width: 358px;
+}
+.item{
+	border: 5px solid black;
+	width: 25%; /* largura */
+	text-align: center;
+	margin: 20px;
+}
+ /*                      media               */
+
+@media (min-width: 751px) and (max-width: 900px){
+
