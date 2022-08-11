@@ -1,0 +1,74 @@
+body{
+	background-image: url("../img/image.jpg");
+	background-size: cover; 
+	margin: 0;
+	padding: 0;
+}
+nav{
+	padding-left: 10vw;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	height: 7vh;
+	background-color: #783c00;
+}
+nav input{
+	width: 30vw;
+	margin-top: 1vh;
+	padding-top: 1vh;
+	padding-left: 4vw;
+	padding-right: 10vw;
+	padding-bottom: 1vh;
+	border-radius: 25px;            /*arredondar a borda*/
+	background-color: #FFFAF0;
+	color: #783c00;
+	font-weight: 700;
+}
+#lupa{
+	position: fixed; 
+	margin-top: 2.3vh;
+	margin-left: 1.5vh;
+}
+#headphone{
+	float: right; /* para se deslocar para direita*/
+	color: white;
+	margin-top: 2vh;
+	margin-right: 2vw;
+}
+
+nav img{
+	float: right; 
+	margin-top: 1.2vh;
+	margin-right: 2vw;
+}
+nav span{
+	color: white;
+	float: right;
+	margin-top: 2vh; /* mover para cima e pra baixo*/
+	margin-right: 1.5vw; /* mover para os lados*/
+	text-transform:uppercase;
+	font-weight: 700; /* colcoar a letra em negrito */
+	/* letter-spacing: 3px;  dar espaços entre as letras */
+}
+section.info{
+	display: flex; /* colocar frases um ao lado do outro */
+	margin-top: 0.8vh;
+	border-top: solid 5px #783c00;
+	border-bottom: solid 20px #783c00;
+	padding-left: 2vw;
+	padding-right: 2vw
+}
+section.info div.endereco{
+	width: 32vw;
+	display: flex;
+	border-right: solid 4px #783c00;
+	
+}
+section.info div.texto-endereco{
+	color: #783c00;
+	text-align: center;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+}
+section.info div.textp-enderecp p{
+	margin-top: 16px;
+}
