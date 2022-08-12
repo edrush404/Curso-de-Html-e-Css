@@ -54,48 +54,62 @@ section.info{
 	margin-top: 0.8vh;
 	border-top: solid 5px #783c00;
 	border-bottom: solid 20px #783c00;
-	padding-left: 2vw;
-	padding-right: 2vw
+	
 }
 section.info div.endereco{
-	width: 32vw;
-	display: flex;	
+	display: flex;
+	justify-content: space-between;
+	min-width: 33vw;
+	max-width: 33vw;
 }
 section.info div.texto-endereco{
 	color: #783c00;
 	text-align: center;
 	padding-top: 1vh;
 	padding-bottom: 1vh;
+	margin-top: 0px;
+	margin-left: 115px;
 }
-section.info div.textp-enderecp p{
-	margin-top: -15px;
+section.info div.texto-endereco p{
+	line-height: 0px;
+	font-weight: bold;
 }
 section.info div.barra-lateral{
-	width: 0.5vh;            /* largura*/
-	background-color: #783c00;
-	border-radius: 5px;
-	transform: rotate(15deg);
-	margin-left: 9vw;
+	width: 0.5vw; /* vw largura */
+    background-color: #783c00;
+    border-radius: 5px;
+    transform: rotate(15deg);
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 div.funcionamento{
 	color: #783c00;	
-	margin-left: -4vw; /*espaçamento lateral*/
-	margin-top: 7px;
+	/*margin-left: -4vw; /*espaçamento lateral*/
+	min-width: 33vw;
+	max-width: 33vw;
+	text-align: center;
+}
+div.funcionamento p{
+	margin-top: -15px;
 }
 div.contatos{
 	color: #783c00;
-	margin-left: 19.6vw;
+	min-width: 33vw;
+	max-width: 33vw;
 }
-#qrcode{
+div.contatos h1{
+	margin-left: 6vw;
+}
+div.contatos .redes{
+	display: flex;
+	
+}
+div.contatos .redes .img{
 	margin-left: 3vw;
-	margin-top: -6vh;
+}
+div.contatos .qr-code{
 	float: right;
-}
-#wpp{
-	margin-right: 1vw;
-}
-#insta{
-	margin-right: 1vw;
+	margin-top: -130px;
 }
 section.menu{
 	display: flex;
