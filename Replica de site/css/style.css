@@ -1,0 +1,33 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #c8cac9;
+}
+ul{
+	padding: 25px;
+	list-style-type: none;
+	float: right;
+	font-size:25px;
+	margin-top: -75px;
+}
+ul .active{
+	background-color:red;
+}
+.fundo{
+	width: 100%;
+	height: 500px;
+	background-image: url("../img/desk.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+li{
+	display: inline;
+}
+li a{
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+}
+.img img{
+	width:140px;
+}
