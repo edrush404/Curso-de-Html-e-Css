@@ -12,6 +12,7 @@ ul{
 }
 ul .active{
 	background-color:red;
+	border-radius:10px;
 }
 .fundo{
 	width: 100%;
@@ -19,6 +20,22 @@ ul .active{
 	background-image: url("../img/desk.png");
 	background-repeat: no-repeat;
 	background-size:cover;
+}
+#link{
+    position: absolute;
+    right: 8vw;
+    padding: 39px 146px;
+    top: 39vh;
+}
+.oferta{
+	text-align:center;
+	font-weight: bolder;
+	font-size:30px;
+	
+}
+.borda{
+	background-color:#9e9e9e;
+	height:10px;
 }
 li{
 	display: inline;
@@ -30,4 +47,50 @@ li a{
 }
 .img img{
 	width:140px;
+}
+.paragrafo .txt1{
+	float:right;
+	width: 45vw;
+	margin-top:130px;
+	text-align:justify;
+	margin-right:150px;
+	font-size:25px;
+	letter-spacing:1px;
+}
+.paragrafo .txt2{
+	width:30vw;
+	padding-top:5vh;
+	margin-left:200px;
+	font-size:30px;
+	color:#76623b;
+}
+
+.paragrafo .imgmeio{
+	width: 30vw;
+	margin-left:200px;	
+	
+}
+.paragrafo .imgmeio img{
+	width: 100%;
+	box-shadow:0px 0px 20px 13px #000000a1;
+}
+.paragrafo .imgmeio p{
+	font-size:15px;
+	text-align:center;
+	font-weight: bolder;
+}
+.linkb{
+	margin-left:22vw;
+	margin-top:40px;
+}
+.linkb a{
+	color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    background: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 8px;
 }
