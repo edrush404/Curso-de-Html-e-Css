@@ -9,10 +9,28 @@ ul{
 	float: right;
 	font-size:25px;
 	margin-top: -75px;
+	position: fixed;
+	margin-left:47vw;
 }
-ul .active{
+ul #home{
 	background-color:red;
 	border-radius:10px;
+}
+ul #troca{
+	color:red;
+	font-weight: bolder;
+}
+ul #cartao{
+	color:red;
+	font-weight: bolder;
+}
+ul #sobre{
+	color:red;
+	font-weight: bolder;
+}
+ul #contato{
+	color:red;
+	font-weight: bolder;
 }
 .fundo{
 	width: 100%;
@@ -64,17 +82,16 @@ li a{
 	font-size:30px;
 	color:#76623b;
 }
-
-.paragrafo .imgmeio{
+.paragrafo .imgbox{
 	width: 30vw;
 	margin-left:200px;	
 	
 }
-.paragrafo .imgmeio img{
+.paragrafo .imgbox img{
 	width: 100%;
 	box-shadow:0px 0px 20px 13px #000000a1;
 }
-.paragrafo .imgmeio p{
+.paragrafo .imgbox p{
 	font-size:15px;
 	text-align:center;
 	font-weight: bolder;
@@ -92,5 +109,69 @@ li a{
     text-transform: uppercase;
     font-size: 22px;
     font-weight: bolder;
-    margin-left: 8px;
+    margin-left: 1vw;
 }
+.paragrafo .imgcorrida{
+	width: 30vw;
+	float:right;
+	margin-right: 9vw;
+	margin-bottom: 2vh;
+	
+}
+.paragrafo .imgcorrida img{
+	width: 100%;
+	box-shadow:0px 0px 20px 13px #000000a1;
+	margin-top:0vh;
+}
+.paragrafo .imgcorrida p{
+	font-size:15px;
+	text-align:center;
+	font-weight: bolder;
+}
+.linkc{
+	margin-left:22vw;
+	margin-top:40px;
+}
+.linkc a{
+	color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    background: black;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bolder;
+	margin-left:51vw;
+}
+.paragrafo .paragrafo2 .txt3{
+	float:left;
+	width: 45vw;
+	margin-top:18vh;
+	text-align:justify;
+	margin-left:5vw;
+	font-size:25px;
+	letter-spacing:1px;
+}
+.txt4{
+	width:27vw;
+	padding-top:5vh;
+	margin-left:120vh;
+	font-size:30px;
+	color:#76623b;
+	margin-top:4vh;
+}
+.contato{
+	text-align:center;
+	font-weight: bolder;
+	font-size:30px;
+	color:white;
+}
+.borda2{
+	background-color: #9e9e9e;
+	height:200px;
+    margin-top: 200px;
+}
+
+
+
+
