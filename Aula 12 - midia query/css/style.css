@@ -1,0 +1,168 @@
+body{
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 10vh;
+}
+.section-header{
+	display: flex;
+	margin: 15px 15px;
+}
+.section-header .roxo-header{
+	background-color: purple;
+	min-height: 10vh;
+	width: 30vw;
+	margin-right: 3vw;
+}
+.section-header .cinza-header{
+	width: 70%;
+	min-height: 10vh;
+	background-color: gray;
+}
+.banner{
+	min-height: 10vh;
+	background-color: #2196f3;
+	margin-left: 0.8vw;
+	margin-right: 0.8vw;
+	background-image: url('../teste.jpg');
+}
+.margin-left{
+	margin-left: 150px;
+}
+.red{
+	background-color: red !important;
+}
+.green{
+	background-color: green !important;
+}
+.grayDark1{
+	background-color: #757575 !important;
+}
+.grayDark2{
+	background-color: #616161  !important;
+}
+.grayDark3{
+	background-color: #424242  !important;
+}
+.section-card{
+	display: flex;
+	margin-left: 0.8vw;
+	margin-right: 0.8vw;
+	margin-top: 5vh;
+}
+.section-card .card{
+	width: 34%;
+}
+.section-card .card .card-img{
+	background-color: orange;
+	min-height: 30vh;
+	width: 100%;
+}
+.section-card .card .card-row{
+	display: flex;
+	flex-direction: column;
+}
+.section-card .card .card-row .row{
+	min-height: 5vh;
+	background-color: black;
+	margin-top: 5px;
+}
+
+@media (min-width: 1366px){
+	.margin-left{
+		margin-left: 30px;
+	}
+	.section-header{
+		margin-bottom: 15px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media (min-width: 771px) and (max-width: 1365px){
+	body{
+		margin-left: 0vw;
+		margin-right: 0vw;
+		margin-top: 0vh;
+	}
+	.margin-left{
+		margin-left: 30px;
+	}
+	.section-header{
+		margin-bottom: 15px;
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+}
+@media (min-width: 571px) and (max-width: 770px){
+	body{
+		margin-left: 5vw;
+		margin-right: 5vw;
+		margin-top: 5vh;
+	}
+	.section-header{
+		margin-bottom: 15px;
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+	.banner{
+		min-height: 20vh;
+	}
+	.section-card .card{
+		width: 50%;
+	}
+	.margin-left{
+		margin-left: 5px;
+	}
+	#green{
+		display: none;
+	}
+	
+}
+@media (max-width: 570px){
+	body{
+		margin-left: 5vw;
+		margin-right: 5vw;
+		margin-top: 5vh;
+	}
+	.banner{
+		min-height: 20vh;
+	}
+	.section-header{
+		margin-bottom: 15px;
+		margin-left: 6px;
+		margin-right: 6px;
+	}
+	.section-card{
+		flex-direction: column;
+	}
+	.margin-left{
+		margin-left: 0px;
+	}
+	.section-card .card{
+		width: 86.5vw;
+		margin-top: 10px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
