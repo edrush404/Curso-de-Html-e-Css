@@ -160,16 +160,26 @@ li a{
 	color:#76623b;
 	margin-top:4vh;
 }
-.contato{
+.borda2 .contato{
 	text-align:center;
 	font-weight: bolder;
 	font-size:30px;
 	color:white;
 }
+.borda2 .rodapé{
+	color:white;
+	text-align:center;
+	margin-top:50px;
+}
+.borda2 #redesociais{
+	width:30px;
+	margin-left:93vh;
+}
 .borda2{
 	background-color: #9e9e9e;
 	height:200px;
-    margin-top: 200px;
+    margin:0px;
+
 }
 
 
