@@ -167,7 +167,125 @@ li a{
     margin:0px;
 
 }
-
-
-
-
+@media screen and (max-width: 425px){ 
+	ul{
+	padding: 0px;
+    font-size: 9px;
+    margin-top: -30px;
+    position: fixed;
+    margin-left: 12vw;
+	}
+	.fundo{
+	width: 95%;
+    height: 116px;
+    background-image: url(../img/desk.png);
+    background-size: cover;
+	}
+	.oferta{
+	font-size: 15px;
+	}
+	.img img {
+    width: 60px;
+	}
+	li a {
+    text-decoration: none;
+    color: red;
+    padding: 10px;
+	}
+	.paragrafo .txt1 {
+    float: left;
+    width: 50vw;
+    margin-top: 15px;
+    text-align: justify;
+    margin-left: 15px;
+    font-size: 10px;
+	}
+	.paragrafo .txt2 {
+    width: 30vw;
+    margin-left: 225px;
+    font-size: 12px;
+    color: #76623b;
+	}
+	.paragrafo .imgbox {
+    width: 50vw;
+    margin-left: 180px;
+	}
+	.linkb {
+    margin-left: 53vw;
+    margin-top: 22px;
+	}
+	.linkb a {
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    background: black;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: bolder;
+    margin-left: 6vw;
+	}
+	.paragrafo .paragrafo2 .txt3 {
+    float: left;
+    width: 60vw;
+    margin-top: 12vh;
+    text-align: justify;
+    margin-left: 5vw;
+    font-size: 12px;
+    letter-spacing: 1px;
+	}
+	.txt4 {
+    width: 60vw;
+    padding-top: 25vh;
+    margin-left: 23vh;
+    font-size: 15px;
+    color: #76623b;
+    margin-top: 4vh;
+	}
+	.paragrafo .imgcorrida {
+    width: 50vw;
+    float: right;
+    margin-right: 9vw;
+    margin-bottom: 2vh;
+	}
+	.linkc {
+    margin-left: 2vw;
+	}
+	.linkc a {
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    background: black;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bolder;
+    margin-left: 55vw;
+	}
+	.paragrafo .imgbox p {
+    font-size: 10px;
+    text-align: center;
+    font-weight: bolder;
+	}
+	.paragrafo .imgcorrida p {
+    font-size: 10px;
+    text-align: center;
+    font-weight: bolder;
+	}
+	.borda2 {
+    background-color: #9e9e9e;
+    height: 160px;
+	}
+	.borda2 .contato {
+    font-size: 22px;
+	}
+	.borda2 #redesociais {
+    width: 30px;
+    margin-left: 159px;
+	}
+	.borda2 .rodapé {
+    color: white;
+    text-align: center;
+    margin-top: 14px;
+	}
+}
