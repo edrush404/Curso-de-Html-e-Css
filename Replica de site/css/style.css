@@ -167,7 +167,7 @@ li a{
     margin:0px;
 
 }
-@media screen and (max-width: 425px){ 
+@media (max-width: 1366px){ 
 	ul{
 	padding: 0px;
     font-size: 9px;
