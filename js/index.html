@@ -31,11 +31,11 @@
 			console.log(list);
 			document.getElementById("texto").value="";
 			
-			if(text == ""){
-				alert("Digite algo..")
-			}else{
-				alert("adicionando")
+			if(!text){
+			 lista.innerHTML = '<li id=list">por favor, digite um termo válido</li>'
 			}
+		
+		}
 	</script>
  </body>
 </html>
