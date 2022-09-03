@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Controlando video com java script</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<form>
+		<h2> Video: </h2>
+		
+		<video width="900" height="700" id="video">
+			<source src="src/video.mp4" type="video/mp4">
+		</video>
+		
+		<h2>
+			<button type="button" value="" onclick="play()" id="botao">play</button>
+		</h2>
+	</form>
+	
+	<script type="text/javascript">
+		let meuVideo = document.querySelector("#video");
+		let botao = document.querySelector("#botao");
+		
+		function play(){
+
+			if(meuVideo.paused){
+				botao.innerHTML = "pause"
+				document.body.style.backgroundColor = "black";
+					meuVideo.play()
+					
+				botao.innerHTML = "pause";
+				botao.style.color = "white";
+		
+			}else{
+				botao.innerHTML = "play"
+				document.body.style.backgroundColor = "white";
+					meuVideo.pause()
+		
+				botao.innerHTML = "play";
+				botao.style.color = "black";	
+			}
+		}
+		
+		contador = 100;
+
+		for (i = 0; i < contador; i++){
+			console.log("faltam" + (contador - (i + 1))+ "repetição para interromper a execução");
+			console.log("Estamos na posição" + (i + 1))
+		}
+	</script>
+</body>
+</html>

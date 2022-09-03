@@ -4,11 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Controlando video com java script</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<h2>Video: </h2>
 	
-	<video width="500" height="300" id="video1">
+	<video width="500" height="300" id="video">
 		<source src="src/video.mp4" type="video/mp4">
 	</video>
 	
@@ -20,7 +21,7 @@
 	<input type="button" value="Voltar ao padrão" onclick="redefinirVideo()">
 	
 	<script type="text/javascript">
-		let meuVideo = document.querySelector("#video1");
+		let meuVideo = document.querySelector("#video");
 		
 		function playPause(){
 
@@ -30,18 +31,7 @@
 				meuVideo.pause()
 			}
 		}
-		function aumentarVideo(){
-			meuVideo.width = 700
-			meuVideo.height = 400
-		}
-		function diminuirVideo(){
-			meuVideo.height = 300
-			meuVideo.width = 300
-		}	
-		function redefinirVideo(){
-			meuVideo.height = 300
-			meuVideo.width = 500
-		}	
+		
 	</script>
 </body>
 </html>	

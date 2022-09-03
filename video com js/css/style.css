@@ -1,0 +1,15 @@
+body{
+	text-align:center;
+	background-color:black;
+}
+video{
+	height:52vh;
+	border-radius:300px;
+}
+h2{
+	color:#A9A9A9;
+}
+#butao{
+	border-radius:20px;
+	background-color:#A9A9A9;
+}
